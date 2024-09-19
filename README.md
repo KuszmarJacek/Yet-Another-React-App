@@ -7,7 +7,7 @@ Repository of the backend app: [Yet Another Spring App](https://github.com/Kuszm
 
 The app is built on top of vite with Typescript. It uses MUI for styling it's elements for a consistent and functional look.
 Axios alongside Tanstack Query are used for REST operations.
-Right now authentication is not useful for any production enviroment since storing the JWT in a sessionStorage is not a good idea, see: [OWASP Token Storage on Clinet Side](https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_for_Java_Cheat_Sheet.html#token-storage-on-client-side). Authentication will be refactored in acoordance with the backend in the future and right not HttpOnly cookie is considered as an easier option and working with a full Oauth2 in the backend as the harder option.
+Right now authentication is not useful for any production enviroment since storing the JWT in a sessionStorage is not a good idea, see: [OWASP Token Storage on Client Side](https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_for_Java_Cheat_Sheet.html#token-storage-on-client-side). Authentication will be refactored in acoordance with the backend in the future and right not HttpOnly cookie is considered as an easier option and working with a full Oauth2 in the backend as the harder option.
 
 ## Future ideas
 
